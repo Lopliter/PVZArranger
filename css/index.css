@@ -10,5 +10,11 @@ header img{
     width: 25px;
     left: 50px;
     position: fixed;
-
+}
+main #yard img{
+    position: fixed;
+    top: 55px;
+    left: 20px;
+    height:680px;
+    border-radius: 5px;
 }

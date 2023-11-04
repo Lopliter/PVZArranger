@@ -36,3 +36,9 @@ header{
 img{
     pointer-events:none;
 }
+#nav_main ul li{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin: auto 20px;
+}
