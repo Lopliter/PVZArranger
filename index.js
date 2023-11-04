@@ -12,12 +12,12 @@ app.on('ready', () => {
     visualEffectState: "active",
     webPreferences: {experimentalFeatures: true}
  })
-  mainWindow.setMenu(null)
-  mainWindow.setMaximizable(false)
-  mainWindow.loadFile('./index.html')
-  mainWindow.removeMenu()
-  mainWindow.on('closed', () => {
-    mainWindow = null;
+ mainWindow.setMenu(null)
+ mainWindow.setMaximizable(false)
+ mainWindow.loadFile('./index.html')
+ mainWindow.removeMenu()
+ mainWindow.on('closed', () => {
+  mainWindow = null;
   });
 });
 

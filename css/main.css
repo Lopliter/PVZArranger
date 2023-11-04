@@ -1,6 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    user-select:none;
 }
 main{
     display: block;
@@ -30,4 +33,7 @@ header{
     left: 10px;
     top: 10px;
     -webkit-app-region: no-drag;
+}
+img{
+    pointer-events:none;
 }
