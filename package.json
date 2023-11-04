@@ -1,0 +1,14 @@
+{
+  "name": "pvzarranger",
+  "version": "1.0.0",
+  "description": "课设项目，一个基于HTML和JS的PVZ布阵器。",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^27.0.3"
+  }
+}

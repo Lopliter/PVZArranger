@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: block;
+    text-align: center;
+    background-color: rgba(23, 23, 23, 0.9);
+    width: 1366px;
+    height: 768px;
+}
+header{
+    display: block;
+    text-align: center;
+    background-color: rgba(23, 23, 23, 0.9);
+    width: 1366px;
+    height: 40px;
+    -webkit-app-region: drag;
+}
+.btn_close {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    margin-right: 6px;
+    position: relative;
+    overflow: hidden;
+    background: #FF5D5B;
+    border: 1px solid #460100;
+    cursor: pointer;
+    left: 10px;
+    top: 10px;
+    -webkit-app-region: no-drag;
+}
