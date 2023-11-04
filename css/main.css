@@ -14,7 +14,6 @@ main{
 }
 header{
     display: block;
-    text-align: center;
     background-color: rgba(23, 23, 23, 0.9);
     width: 1366px;
     height: 40px;
@@ -30,8 +29,8 @@ header{
     background: #FF5D5B;
     border: 1px solid #460100;
     cursor: pointer;
-    left: 10px;
-    top: 10px;
+    left: 20px;
+    top: 20px;
     -webkit-app-region: no-drag;
 }
 img{

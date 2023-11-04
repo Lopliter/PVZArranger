@@ -1,0 +1,12 @@
+directories:
+  output: build
+  buildResources: build
+productName: PVZArranger
+appId: org.lingx.pvzarranger
+copyright: Lopliter
+win:
+  icon: ./icon.ico
+  target:
+    - portable
+files: []
+electronVersion: 27.0.3

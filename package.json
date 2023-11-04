@@ -4,11 +4,40 @@
   "description": "课设项目，一个基于HTML和JS的PVZ布阵器。",
   "main": "index.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "pack": " electron-builder --dir ",
+    "dist": " electron-builder --win --x64",
+    "postinstall": "electron-builder install-app-deps"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^27.0.3"
+    "@electron-forge/cli": "^6.4.2",
+    "@electron-forge/maker-deb": "^6.4.2",
+    "@electron-forge/maker-rpm": "^6.4.2",
+    "@electron-forge/maker-squirrel": "^6.4.2",
+    "@electron-forge/maker-zip": "^6.4.2",
+    "@electron-forge/plugin-auto-unpack-natives": "^6.4.2",
+    "electron": "^27.0.3",
+    "electron-builder": "^24.6.4"
+  },
+  "build": {
+    "productName": "PVZArranger",
+    "appId": "org.lingx.pvzarranger",
+    "copyright": "Lopliter",
+    "directories": {
+      "output": "build"
+    },
+    "win": {
+      "icon": "./icon.ico",
+      "target": [
+        "portable"
+      ]
+    }
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
   }
 }
